@@ -1,3 +1,7 @@
+import petitionImg from "../images/petition.jpg";
+import chatbotImg from "../images/chatbot.webp";
+import communityImg from "../images/community.png";
+
 export const projects = [
   {
     id: "ai-petition-system",
@@ -29,7 +33,7 @@ export const projects = [
       "Automatic summarization of long petitions",
       "Voice petition submission"
     ],
-    image: "src/images/petition.jpg",
+    image: petitionImg,
     github: "https://github.com/venith-31",
   },
   {
@@ -62,7 +66,7 @@ export const projects = [
       "Automated lease scheduling assistant",
       "Multi-agent system with different tenant negotiator identities"
     ],
-    image: "src/images/chatbot.webp",
+    image: chatbotImg,
     github: "https://github.com/venith-31",
   },
   {
@@ -95,8 +99,7 @@ export const projects = [
       "Real-time push notifications of water/power downtime alerts",
       "Local community marketplace for residents to list furniture/items"
     ],
-    image: "src/images/community.png",
+    image: communityImg,
     github: "https://github.com/venith-31",
   },
 ];
-
