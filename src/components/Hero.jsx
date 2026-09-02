@@ -74,7 +74,7 @@ export function Hero() {
             <div className="flex items-center gap-8">
               {[
                 { icon: Github, href: "https://github.com/venith-31", label: "Github" },
-                { icon: Linkedin, href: "https://linkedin.com/in/venith", label: "Linkedin" },
+                { icon: Linkedin, href: "https://www.linkedin.com/in/venith-a-68b501259", label: "Linkedin" },
                 { icon: Mail, href: "mailto:venitharavindhan@gmail.com", label: "Email" },
               ].map((social, i) => (
                 <motion.a
